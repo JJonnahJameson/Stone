@@ -1,4 +1,5 @@
 
+
 # 🚀 ریلی XHTTP روی Netlify
 
   
@@ -7,7 +8,7 @@
 
 > ساخته شده توسط **amirs**
 
-> ادیت شده توسط **https://t.me/IR_NETLIFY**
+> توسعه یافته توسط **https://t.me/IR_NETLIFY**
 
   
 
@@ -51,23 +52,17 @@
 
 ```txt
 
-.
 
-├── netlify/
-
-│ └── edge-functions/
-
-│ └── relay.js
-
-├── public/
-
-│ └── index.html
-
-├── netlify.toml
-
-├── package.json
-
-└── README.md
+│   netlify.toml
+│   package.json
+│   README.md
+│
+├───netlify
+│   └───edge-functions
+│           relay.js
+│
+└───public
+        index.html
 
   
 
@@ -85,9 +80,9 @@
 
   
 
->در نسخه جدید 1.0.3 نیاز به تنظیم هیچ متغیر محیطی در هیچ جا نیست
+### ⚠️ در نسخه جدید 1.0.3 نیاز به تنظیم هیچ متغیر محیطی در هیچ جا نیست
 
->در نسخه 1.0.2 باید خط اول فایل relay.js رو ادیت کنید
+### ⚠️ در نسخه 1.0.2 باید خط اول فایل relay.js رو ادیت کنید
 
   
   
@@ -101,16 +96,15 @@
 
   
 
-⚠️ **اخرین نسخه رو دانلود کن**
-⚠️ **فایل زیپ رو استخراج کن**
+⚠️ **اخرین نسخه رو دانلود کنید**
+
+⚠️ **فایل زیپ رو استخراج کنید**
+
+ 
 
   
 
-## آموزش راه اندازی
-
-  
-
-💠  netlify.com
+💠  [netlify.com](netlify.com)
 🔸لاگین کنید  و نام دلخواه وارد کنید
   
 [🔥آموزش ساخت بینهایت اکانت نتلیفای](https://t.me/IR_NETLIFY/37)
@@ -121,33 +115,38 @@
 
   
 
-```txt
+
 ⚠️ حتما این گزینه رو بزنید
-⚠️ choose a folder.
-```
-       ⚠️ حتما برو داخل فولدر
-       ⚠️ IR_NETLIFY-RELAY
-       ⚠️ وانتخاب پوشه رو بزن تا بپرسه 
+⚠️* choose a folder.*
+⚠️ حتما برید داخل فولدر
+⚠️ *IR_NETLIFY-RELAY*
+⚠️ وانتخاب پوشه رو بزنید تا بپرسه 
+
+
+
+ *
+
+    Upload 6 files to this site?   This will upload all files from
+     "IR_NETLIFY-RELAY-1.0.X". Only do this if   you trust the site.
+
 *
-> Upload 6 files to this site?   This will upload all files from
-> "IR_NETLIFY-RELAY-1.0.X". Only do this if   you trust the site.
-*
+
 
   
 
   
-🔹برید اینجا app.netlify.com و وارد صفحه پروژه بشید  
+🔹برید اینجا [app.netlify.com](app.netlify.com) و وارد صفحه پروژه بشید  
   
 🔸دامنه پروژه رو کپی کنید (لینکی سبز رنگ کنار اسم پروژه شبیه این)  
 XXX.netlify.app  
   
-
-🔺وارد سایت کانفیگ ساز بشید  
- https://ir-netlify.github.io/NETLIFY/  
-   
+ 🔺وارد سایت کانفیگ ساز بشید  
+ [ir-netlify.github.io/NETLIFY](ir-netlify.github.io/NETLIFY)
  🔺یا دامنه خودتون رو با فیلترشکن باز کنید  
-   
-
+ 
+ 🔺 دامنه رو در کارد مربوطه وارد کنید
+ 
+ 🔺 کانفیگ بسازید
 
  🌐 طبق این آموزش ها dns شکن رو ست کنید  
  https://t.me/IR_NETLIFY/33  
@@ -219,7 +218,7 @@ t.me/IR_NETLIFY
 ## **amirs**
 
 ## 👤 توسعه
-t.me/IR_NETLIFY
+[t.me/IR_NETLIFY](t.me/IR_NETLIFY)
 ---
 
   
