@@ -1,34 +1,35 @@
-# 🚀 Netlify XHTTP Relay
+# 🚀 ریلی XHTTP روی Netlify
 
-> Simple Netlify Edge Function relay project  
-> Created by **amirs**
-
----
-
-## 🇮🇷 Persian Guide
-
-Persian version: [README_FA.md](./README_FA.md)
+> پروژه ساده ریلی با Netlify Edge Function  
+> ساخته شده توسط **amirs**
 
 ---
 
-## ⚠️ Important Notice
+## 🇺🇸 English Guide
 
-Use this project only with your own domain/server or with permission.
-
-
----
-
-## ✨ Features
-
-- Netlify Edge Function relay
-- Simple setup
-- Works with Netlify website and Netlify CLI
-- Environment variable based backend target
-- Supports target domain with port
+نسخه انگلیسی: [README.md](./README.md)
 
 ---
 
-## 📦 Project Structure
+## ⚠️ نکته مهم
+
+از این پروژه فقط برای دامنه و سرور خودت استفاده کن یا جایی که اجازه استفاده داری.
+
+از دامنه‌های شخص ثالث برای `address`، `host` یا `sni` استفاده نکن، مگر اینکه اجازه داشته باشی.
+
+---
+
+## ✨ ویژگی‌ها
+
+- ریلی با Netlify Edge Function
+- راه‌اندازی ساده
+- قابل استفاده با سایت Netlify و Netlify CLI
+- تنظیم مقصد با Environment Variable
+- پشتیبانی از دامنه مقصد همراه با پورت
+
+---
+
+## 📦 ساختار پروژه
 
 ```txt
 .
@@ -44,24 +45,26 @@ Use this project only with your own domain/server or with permission.
 ```
 
 ---
-## 🍴 Deploy by Forking This Repository
 
-> This method works, but it is **not recommended** for most users.  
-> Recommended method: download/copy the project and deploy your own version.
+## 🍴 دیپلوی با Fork کردن پروژه
 
-## 🔐 Required Environment Variable
+> این روش کار می‌کند، ولی برای اکثر کاربران **توصیه نمی‌شود**.  
+> روش پیشنهادی این است که پروژه را دانلود/کپی کنی و نسخه خودت را دیپلوی کنی.
 
-You must set:
+
+## 🔐 Environment Variable ضروری
+
+باید این مقدار را تنظیم کنی:
 
 ```txt
 TARGET_DOMAIN=https://your-domain.com:443
 ```
 
-### Important
+### خیلی مهم
 
-The domain **must include port**.
+دامنه **حتماً باید همراه پورت باشد**.
 
-Correct examples:
+نمونه درست:
 
 ```txt
 https://example.com:443
@@ -69,7 +72,7 @@ https://sub.example.com:443
 https://api.example.com:8443
 ```
 
-Wrong examples:
+نمونه اشتباه:
 
 ```txt
 https://example.com
@@ -81,55 +84,55 @@ localhost:443
 
 ---
 
-## 🚀 Deploy with Netlify Website
+## 🚀 دیپلوی با سایت Netlify
 
-Use this project directly.
+از همین پروژه استفاده کن.
 
-### 1. Import project
+### 1. وارد کردن پروژه
 
-Go to Netlify:
+وارد Netlify شو:
 
 ```txt
 https://app.netlify.com
 ```
 
-Then:
+بعد بزن:
 
 ```txt
 Add new project → Import an existing project
 ```
 
-Select your repository.
+ریپوی پروژه را انتخاب کن.
 
 ---
 
-### 2. Build settings
+### 2. تنظیمات Build
 
-Use:
+این‌ها را بگذار:
 
-| Setting | Value |
+| تنظیم | مقدار |
 |---|---|
 | Build command | `npm run build` |
 | Publish directory | `public` |
 
 ---
 
-### 3. Add Environment Variable
+### 3. اضافه کردن Environment Variable
 
-Go to:
+برو به:
 
 ```txt
 Site configuration → Environment variables → Add variable
 ```
 
-Add:
+اضافه کن:
 
 ```txt
 Key: TARGET_DOMAIN
 Value: https://your-domain.com:443
 ```
 
-Example:
+مثال:
 
 ```txt
 TARGET_DOMAIN=https://example.com:443
@@ -137,9 +140,9 @@ TARGET_DOMAIN=https://example.com:443
 
 ---
 
-### 4. Redeploy
+### 4. دیپلوی دوباره
 
-After adding `TARGET_DOMAIN`, redeploy:
+بعد از اضافه کردن `TARGET_DOMAIN` حتماً دوباره deploy کن:
 
 ```txt
 Deploys → Trigger deploy → Deploy site
@@ -149,51 +152,51 @@ Deploys → Trigger deploy → Deploy site
 
 ---
 
-## 🍴 Deploy by Forking This Repository
+## 🍴 دیپلوی با Fork کردن پروژه
 
-> This method works, but it is **not recommended** for most users.  
-> Recommended method: download/copy the project and deploy your own version.
+> این روش کار می‌کند، ولی برای اکثر کاربران **توصیه نمی‌شود**.  
+> روش پیشنهادی این است که پروژه را دانلود/کپی کنی و نسخه خودت را دیپلوی کنی.
 
-### Why fork is not recommended?
+### چرا Fork توصیه نمی‌شود؟
 
-- Your project stays connected to the original repository history
-- Beginners may get confused with GitHub fork/update options
-- If you want a clean personal project, copying the files is better
+- پروژه تو به تاریخچه ریپوی اصلی وصل می‌ماند
+- گزینه‌های Fork و Sync برای مبتدی‌ها ممکن است گیج‌کننده باشد
+- اگر پروژه تمیز و شخصی می‌خواهی، کپی کردن فایل‌ها بهتر است
 
-### If you still want to use Fork
+### اگر با این حال خواستی Fork کنی
 
-1. Open this project on GitHub
-2. Click **Fork**
-3. Choose your GitHub account
-4. After fork is created, go to Netlify
-5. Click:
+1. پروژه را در GitHub باز کن
+2. روی **Fork** بزن
+3. اکانت GitHub خودت را انتخاب کن
+4. بعد از ساخته شدن Fork، وارد Netlify شو
+5. بزن:
 
 ```txt
 Add new project → Import an existing project → GitHub
 ```
 
-6. Select your forked repository
-7. Use these build settings:
+6. ریپوی Fork شده را انتخاب کن
+7. تنظیمات Build را این‌طور بگذار:
 
-| Setting | Value |
+| تنظیم | مقدار |
 |---|---|
 | Build command | `npm run build` |
 | Publish directory | `public` |
 
-8. Add environment variable:
+8. Environment Variable را اضافه کن:
 
 ```txt
 TARGET_DOMAIN=https://your-domain.com:443
 ```
 
-9. Deploy the site
+9. سایت را Deploy کن
 
-After changing `TARGET_DOMAIN`, always redeploy.
+بعد از تغییر `TARGET_DOMAIN` همیشه باید دوباره deploy بزنی.
 
 
-## 💻 Deploy with Netlify CLI
+## 💻 دیپلوی با Netlify CLI
 
-### 1. Install Netlify CLI
+### 1. نصب Netlify CLI
 
 ```bash
 npm install -g netlify-cli
@@ -201,15 +204,21 @@ npm install -g netlify-cli
 
 ---
 
-### 2. Go to project folder
+### 2. رفتن به فولدر پروژه
 
 ```bash
 cd path/to/project
 ```
 
+مثلاً:
+
+```bash
+cd Desktop/netlify-relay
+```
+
 ---
 
-### 3. Login
+### 3. لاگین
 
 ```bash
 netlify login
@@ -217,15 +226,15 @@ netlify login
 
 ---
 
-### 4. Link project
+### 4. لینک کردن پروژه
 
-If your site already exists on Netlify:
+اگر سایت از قبل داخل Netlify ساخته شده:
 
 ```bash
 netlify link
 ```
 
-If you want CLI to create the site:
+اگر می‌خواهی با CLI سایت بسازی:
 
 ```bash
 netlify init
@@ -233,15 +242,15 @@ netlify init
 
 ---
 
-### 5. Set TARGET_DOMAIN
+### 5. تنظیم TARGET_DOMAIN
 
-The value must include port:
+مقدار حتماً باید پورت داشته باشد:
 
 ```bash
 netlify env:set TARGET_DOMAIN "https://your-domain.com:443" --scope functions --context production
 ```
 
-Example:
+مثال:
 
 ```bash
 netlify env:set TARGET_DOMAIN "https://example.com:443" --scope functions --context production
@@ -249,13 +258,13 @@ netlify env:set TARGET_DOMAIN "https://example.com:443" --scope functions --cont
 
 ---
 
-### 6. Check env
+### 6. چک کردن env
 
 ```bash
 netlify env:list
 ```
 
-or:
+یا:
 
 ```bash
 netlify env:get TARGET_DOMAIN --context production
@@ -263,7 +272,7 @@ netlify env:get TARGET_DOMAIN --context production
 
 ---
 
-### 7. Deploy
+### 7. دیپلوی
 
 ```bash
 netlify deploy --prod
@@ -271,9 +280,9 @@ netlify deploy --prod
 
 ---
 
-## 🧪 Usage
+## 🧪 نحوه استفاده
 
-| What you open | What it forwards to |
+| چیزی که باز می‌کنی | مقصدی که به آن وصل می‌شود |
 |---|---|
 | `https://your-site.netlify.app/` | `https://your-domain.com:443/` |
 | `https://your-site.netlify.app/path` | `https://your-domain.com:443/path` |
@@ -281,25 +290,24 @@ netlify deploy --prod
 
 ---
 
-## 🔗 Example Config
+## 🔗 نمونه کانفیگ
 
-Replace placeholders with your own values.
+مقدارهای نمونه را با اطلاعات خودت جایگزین کن.
 
 ```txt
-vless://UUID@xxxxx=SNi:443?encryption=none&security=tls&sni=xxx&fp=chrome&alpn=h2%2Chttp%2F1.1&insecure=0&allowInsecure=0&type=xhttp&host=YOUR_NETLIFY_DOMAIN&path=YOUR_PATH&mode=auto&extra=%7B%22xPaddingBytes%22%3A%22100-1000%22%7D#net
+vless://UUID@YOUR_NETLIFY_DOMAIN:443?encryption=none&security=tls&sni=YOUR_NETLIFY_DOMAIN&fp=chrome&alpn=h2%2Chttp%2F1.1&insecure=0&allowInsecure=0&type=xhttp&host=YOUR_NETLIFY_DOMAIN&path=YOUR_PATH&mode=auto&extra=%7B%22xPaddingBytes%22%3A%22100-1000%22%7D#net
 ```
 
-### Replace these
+### این‌ها را عوض کن
 
-| Placeholder | Meaning |
+| مقدار | معنی |
 |---|---|
-| `UUID` | Your UUID |
-| `YOUR_NETLIFY_DOMAIN` | Your Netlify domain, for example `your-site.netlify.app` |
-| `YOUR_PATH` | Your backend path |
+| `UUID` | UUID خودت |
+| `YOUR_NETLIFY_DOMAIN` | دامنه Netlify خودت، مثل `your-site.netlify.app` |
+| `YOUR_PATH` | مسیر بک‌اند خودت |
 
 
-Use this sni - adress for your config:
-
+دامنه برای sni - adress
 ```txt
 kubernetes.io
 helm.sh
@@ -308,61 +316,61 @@ letsencrypt.org
 
 ---
 
-## 🐞 Debug
+## 🐞 دیباگ
 
-### Check deploy logs
+### دیدن لاگ deploy
 
 ```txt
 Site → Deploys → Latest deploy → View logs
 ```
 
-### Check Edge Function logs
+### دیدن لاگ Edge Function
 
 ```txt
 Site → Edge Functions → relay → Logs
 ```
 
-### Check env
+### چک کردن env
 
 ```bash
 netlify env:list
 netlify env:get TARGET_DOMAIN --context production
 ```
 
-### Test your backend
+### تست بک‌اند
 
 ```bash
 curl -I "https://your-domain.com:443"
 ```
 
-If this command fails, fix your backend/domain/port first.
+اگر این دستور خطا داد، اول مشکل دامنه، SSL یا پورت سرور را حل کن.
 
 ---
 
-## ❌ Common Errors
+## ❌ خطاهای رایج
 
-| Error | Reason | Fix |
+| خطا | دلیل | راه‌حل |
 |---|---|---|
-| `dns error` | Domain cannot be resolved | Check domain DNS |
-| `connection refused` | Port is closed | Open the port or use correct port |
-| `SSL/TLS error` | Certificate/SNI problem | Use correct domain and valid SSL |
-| Still using old domain | Old deploy/env | Set env again and redeploy |
-| `404` | Route problem | Check `netlify.toml` |
+| `dns error` | دامنه resolve نمی‌شود | DNS دامنه را چک کن |
+| `connection refused` | پورت بسته است | پورت درست را باز کن |
+| `SSL/TLS error` | مشکل گواهی یا SNI | دامنه و SSL را درست کن |
+| هنوز دامنه قبلی را می‌خواند | env یا deploy قدیمی است | env را دوباره ست کن و redeploy بزن |
+| `404` | مشکل route | فایل `netlify.toml` را چک کن |
 
 ---
 
-## ✅ Quick Checklist
+## ✅ چک‌لیست سریع
 
-- [ ] `TARGET_DOMAIN` is set
-- [ ] `TARGET_DOMAIN` includes `https://`
-- [ ] `TARGET_DOMAIN` includes port
-- [ ] Backend domain resolves publicly
-- [ ] Backend port is open
-- [ ] You redeployed after changing env
+- [ ] `TARGET_DOMAIN` تنظیم شده
+- [ ] `TARGET_DOMAIN` با `https://` شروع می‌شود
+- [ ] `TARGET_DOMAIN` حتماً پورت دارد
+- [ ] دامنه مقصد عمومی resolve می‌شود
+- [ ] پورت مقصد باز است
+- [ ] بعد از تغییر env دوباره deploy زدی
 
 ---
 
-## 💰 Donate
+## 💰 حمایت مالی
 
 https://reymit.ir/amirshaker
 
@@ -374,7 +382,7 @@ E7S8EBUE5tkY5UaTgDvhaanJMeCi2DxPGYZukJGrJV8J
 
 ---
 
-## 📢 Telegram Channel
+## 📢 کانال تلگرام
 
 ```txt
 https://t.me/avaco_cloud
@@ -383,7 +391,7 @@ https://t.me/IR_NETLIFY
 
 ---
 
-## 💬 Contact
+## 💬 ارتباط
 
 ```txt
 @ShakerFPS
@@ -391,12 +399,12 @@ https://t.me/IR_NETLIFY
 
 ---
 
-## 👤 Author
+## 👤 سازنده
 
 **amirs**
 
 ---
 
-## 📜 License
+## 📜 لایسنس
 
 MIT License © amirs
