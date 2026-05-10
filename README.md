@@ -1,5 +1,6 @@
 
 
+
 # 🚀 ریلی XHTTP روی Netlify
 
   
@@ -38,7 +39,7 @@
 
 🔥 بدون نیاز به Environment Variable
 
-🔥 دارای سرور های دیفالت اهدایی دوستان
+🔥 بدون نیاز به سرور (سرور های اهدایی دوستان داخل برنامه هست)
 
   
 
@@ -84,17 +85,11 @@
 
 ### ⚠️ در نسخه 1.0.2 باید خط اول فایل relay.js رو ادیت کنید
 
-  
-  
-  
-
 ---
 
-  
+# [🔆ویدئو آموزش اجرای پروژه🔆](https://t.me/IR_NETLIFY/84)
 
-## 🚀 دیپلوی با سایت Netlify
-
-  
+# 🚀 دیپلوی با سایت Netlify
 
 ⚠️ **اخرین نسخه رو دانلود کنید**
 
@@ -106,7 +101,7 @@
 
 💠  [netlify.com](netlify.com)
 
-🔸لاگین کنید  و نام دلخواه وارد کنید
+**🔸لاگین کنید  و نام دلخواه وارد کنید**
   
 [🔥آموزش ساخت بینهایت اکانت نتلیفای](https://t.me/IR_NETLIFY/37)
 
@@ -117,52 +112,51 @@
   
 
 
-⚠️ حتما این گزینه رو بزنید
-
+**⚠️ حتما این گزینه رو بزنید
 ⚠️ choose a folder.
-
 ⚠️ حتما برید داخل فولدر
-
 ⚠️ IR_NETLIFY-RELAY
-
-⚠️ و انتخاب پوشه رو بزنید تا بپرسه 
-
-
-
- *
+⚠️ و انتخاب پوشه رو بزنید تا بپرسه** 
 
     Upload 6 files to this site?   This will upload all files from
      "IR_NETLIFY-RELAY-1.0.X". Only do this if   you trust the site.
 
-*
-
-
-  
-
-  
 🔹برید اینجا [app.netlify.com](app.netlify.com) و وارد صفحه پروژه بشید  
   
 🔸دامنه پروژه رو کپی کنید (لینکی سبز رنگ کنار اسم پروژه شبیه این)  
-XXX.netlify.app  
+*XXX.netlify.app*  
   
  🔺وارد سایت کانفیگ ساز بشید  
- [ir-netlify.github.io/NETLIFY](ir-netlify.github.io/NETLIFY)
+
+## [ir-netlify.github.io/NETLIFY](ir-netlify.github.io/NETLIFY)
+
+
  
  🔺یا دامنه خودتون رو با فیلترشکن باز کنید  
  
- 🔺 دامنه رو در کارد مربوطه وارد کنید
+ 🔺 یک سرور انتخاب کنید
+ 
+ 🔺 دامنه رو در بخش Netlify Domain وارد کنید
  
  🔺 کانفیگ بسازید
 
- 🌐 طبق این آموزش ها dns شکن رو ست کنید  
- 
- https://t.me/IR_NETLIFY/33  
- 
- ❌ از نرم افزار شکن استفاده نکنید و دستی ست کنید  
- 
- 🔅 بهتره که روی مودم ست کنید همه وصل بشن
+>  🌐 طبق این آموزش ها dns شکن رو ست کنید  
+> 
+>  https://t.me/IR_NETLIFY/33      
+>  ❌ از نرم افزار شکن استفاده نکنید ودستی ست کنید
+>  
+>    🔅 بهتره که روی مودم ست کنید همه وصل بشن
 
   
+
+
+
+>
+
+---
+
+
+
 
 ## 💰 حمایت مالی
 
@@ -193,11 +187,9 @@ E7S8EBUE5tkY5UaTgDvhaanJMeCi2DxPGYZukJGrJV8J
   
 
 ```txt
-
-https://t.me/avaco_cloud
-
 https://t.me/IR_NETLIFY
 
+https://t.me/avaco_cloud
 ```
 
   
