@@ -54,16 +54,15 @@
 ```txt
 
 
-│   netlify.toml
-│   package.json
-│   README.md
-│
-├───netlify
-│   └───edge-functions
-│           relay.js
-│
-└───public
-        index.html
+.
+├── netlify/
+│   └── edge-functions/
+│       └── relay.js
+├── public/
+│   └── index.html
+├── netlify.toml
+├── package.json
+└── README.md
 
   
 
