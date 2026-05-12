@@ -226,5 +226,7 @@ t.me/IR_NETLIFY
 ## 📜 لایسنس
 
   
+> Copyright © 2025 @avaco_cloud
 
-MIT License © amirs
+
+> MIT License © amirs
