@@ -80,7 +80,7 @@
 
   
 
-### ⚠️ در نسخه های بعد از 1.0.3 نیاز به تنظیم هیچ متغیر محیطی در هیچ جا نیست
+### ⚠️ در نسخه جدید 1.0.3 نیاز به تنظیم هیچ متغیر محیطی در هیچ جا نیست
 
 ### ⚠️ در نسخه 1.0.2 باید خط اول فایل relay.js رو ادیت کنید
 
@@ -161,11 +161,19 @@
 
   
 
-💌 https://donatonion.netlify.app
+https://reymit.ir/amirshaker
 
   
 
+Solana:
 
+  
+
+```txt
+
+E7S8EBUE5tkY5UaTgDvhaanJMeCi2DxPGYZukJGrJV8J
+
+```
 
   
 
@@ -218,7 +226,5 @@ t.me/IR_NETLIFY
 ## 📜 لایسنس
 
   
-> Copyright © 2025 @avaco_cloud
 
-
-> MIT License © amirs
+MIT License © amirs
